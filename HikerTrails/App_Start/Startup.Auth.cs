@@ -58,11 +58,11 @@ namespace HikerTrails
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "123074838443-k6c72ruhoclucdij4dohg9jvpdbu9io8.apps.googleusercontent.com",
+                ClientSecret = "umZ6zAgrY7rW-3Bzj4etnQSC"
+            });
         }
     }
 }

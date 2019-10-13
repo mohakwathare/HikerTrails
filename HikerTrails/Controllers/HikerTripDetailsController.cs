@@ -10,7 +10,6 @@ using HikerTrails.Models;
 
 namespace HikerTrails.Controllers
 {
-    [Authorize(Roles = "admin")]
     public class HikerTripDetailsController : Controller
     {
         private HikerTrailsContext db = new HikerTrailsContext();

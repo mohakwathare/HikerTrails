@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HikerTrails.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,8 +7,11 @@ using System.Web.Mvc;
 
 namespace HikerTrails.Controllers
 {
+    [RequireHttps]
     public class HomeController : Controller
     {
+        private HikerTrailsContext db = new HikerTrailsContext();
+
         public ActionResult Index()
         {
             return View();

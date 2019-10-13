@@ -1,0 +1,34 @@
+﻿@model IEnumerable<HikerTrails.Models.Hikes>
+@{
+    ViewBag.Title = "ViewCalendar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ViewCalendar</h2>
+
+<div id="calendar"></div>
+<div style="display: none">
+    <table class="table">
+        @foreach (var item in Model)
+        {
+            <tr class="hikes">
+                <td class="identity">
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td class="title">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td class="start">
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+@section Scripts {
+    <script src="~/Scripts/lib/jquery.min.js"></script>
+    <script src="~/Scripts/lib/moment.min.js"></script>
+    <script src="~/Scripts/fullcalendar.js"></script>
+    <script src="~/Scripts/calendar.js"></script>
+}
+<link href="~/Content/fullcalendar.css" rel="stylesheet" />

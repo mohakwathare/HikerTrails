@@ -66,6 +66,7 @@ C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\Microsoft.Owin.Security.
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\Newtonsoft.Json.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\Owin.dll
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\SendGrid.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\System.Net.Http.Formatting.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\System.Web.Helpers.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\System.Web.Http.dll
@@ -77,6 +78,8 @@ C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\System.Web.WebPages.Depl
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\System.Web.WebPages.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\System.Web.WebPages.Razor.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\WebGrease.dll
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\SendGrid.pdb
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\SendGrid.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\System.Web.Helpers.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\System.Web.Mvc.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\System.Web.Optimization.xml
@@ -104,13 +107,15 @@ C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\Microsoft.Owin.Security.
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.Remove_Duration.resources
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.TripsDB.resources
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.geolocation.resources
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.participants.resources
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.imageupload.resources
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.csproj.GenerateResource.cache
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.csproj.CoreCompileInputs.cache
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.csproj.CopyComplete
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.pdb
-C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.Remove_Duration.resources
-C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.csproj.GenerateResource.cache
-C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.TripsDB.resources
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.csprojAssemblyReference.cache
-C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.geolocation.resources
-C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.participants.resources
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails\obj\Debug\HikerTrails.Migrations.regpartic.resources

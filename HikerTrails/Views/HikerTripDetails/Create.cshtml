@@ -11,12 +11,9 @@
 @using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
-
-
     
     <div class="form-horizontal">
         <h4>HikerTripDetails</h4>
-        @Model.Hike.Description
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">

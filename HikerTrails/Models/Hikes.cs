@@ -31,7 +31,11 @@ namespace HikerTrails.Models
 
         public double HikeRating { get; set; }
 
+        public int RegisteredParticipants { get; set; }
+
         public int MaximumParticipants { get; set; }
+
+        public string ImagePath { get; set; }
 
     }
 }
