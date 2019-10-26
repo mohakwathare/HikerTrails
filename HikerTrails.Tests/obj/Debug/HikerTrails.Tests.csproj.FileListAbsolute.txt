@@ -4,6 +4,8 @@ C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.Vi
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\HikerTrails.Tests.dll.config
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\HikerTrails.Tests.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\HikerTrails.Tests.pdb
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\EntityFramework.dll
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\HikerTrails.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
@@ -23,7 +25,6 @@ C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.As
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.Owin.Security.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Owin.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\System.Web.Http.dll
-C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\EntityFramework.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
@@ -35,6 +36,8 @@ C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\System.Net.H
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Antlr3.Runtime.dll
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\HikerTrails.pdb
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\HikerTrails.dll.config
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\EntityFramework.xml
+C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\SendGrid.pdb
@@ -52,7 +55,6 @@ C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.As
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.Owin.Security.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\System.Web.Http.xml
-C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\EntityFramework.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 C:\Users\MOhak\Source\Repos\HikerTrails\HikerTrails.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml

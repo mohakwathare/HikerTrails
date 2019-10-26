@@ -1,21 +1,23 @@
 ﻿@model HikerTrails.Models.Hikes
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "ViewHike";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Details for Selected Hike</h2>
 
-@using (Html.BeginForm("RegisterForHike", "Hikes", FormMethod.Post,
-    new { enctype = "multipart/form-data" }))
-{
-    @Html.AntiForgeryToken()
-
 <div>
     <h4>Hike</h4>
     <hr />
     <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Name)
         </dt>
@@ -96,11 +98,11 @@
             @Html.DisplayFor(model => model.HikeRating)
         </dd>
     </dl>
-    @if (Model.RegisteredParticipants < Model.MaximumParticipants)
+    @if (Model.RegisteredParticipants < Model.MaximumParticipants && !@ViewBag.isHikeRegistered)
     {
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Register" class="btn btn-default" />
+                @Html.ActionLink("Register", "RegisterForHike", "Hikes", new { id = Model.Id}, new { @class = "btn btn-default"})
             </div>
         </div>
     }
@@ -114,7 +116,7 @@
     }
 
 </div>
-}
-    <p>
-        @Html.ActionLink("Back to List", "ShowHikes")
-    </p>
+
+<p>
+   @Html.ActionLink("Back to List", "ShowHikes")
+</p>

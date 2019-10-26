@@ -1,0 +1,35 @@
+﻿@model IEnumerable<HikerTrails.Models.Hikes>
+
+@{
+    ViewBag.Title = "ShowChart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Charts</h2>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="~/Scripts/charts.js"></script>
+}
+
+<div>
+
+    <div id="chartContainer" style="height: 500px; width: 80%;"></div>
+
+    <div style="display: none">
+        <table class="table">
+            @foreach (var item in Model)
+            {
+                <tr class="chartpoints">
+                    <td class="name">
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td class="rating">
+                        @Html.DisplayFor(modelItem => item.HikeRating)
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

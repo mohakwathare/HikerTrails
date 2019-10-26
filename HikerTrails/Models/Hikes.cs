@@ -25,9 +25,9 @@ namespace HikerTrails.Models
 
         public DateTime EndDate { get; set; }
 
-        public double StartLongitude { get; set; }
+        public float StartLongitude { get; set; }
 
-        public double StartLatitude { get; set; }
+        public float StartLatitude { get; set; }
 
         public double HikeRating { get; set; }
 
@@ -36,6 +36,8 @@ namespace HikerTrails.Models
         public int MaximumParticipants { get; set; }
 
         public string ImagePath { get; set; }
+
+        public Boolean IsHikeCompleted { get; set; }
 
     }
 }

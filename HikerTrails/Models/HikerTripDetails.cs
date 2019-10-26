@@ -11,10 +11,10 @@ namespace HikerTrails.Models
         [Key]
         public int Id { get; set; }
 
-        public Hikes Hike { get; set; }
+        public int HikeId { get; set; }
 
         public string UserID { get; set; }
 
-        public Boolean IsHikeCompleted { get; set; }
+        public float UserRating { get; set; }
     }
 }

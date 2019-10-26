@@ -11,17 +11,20 @@
     <table class="table">
         @foreach (var item in Model)
         {
-            <tr class="hikes">
-                <td class="identity">
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td class="title">
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td class="start">
-                    @Html.DisplayFor(modelItem => item.StartDate)
-                </td>
-            </tr>
+        <tr class="hikes">
+            <td class="identity">
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td class="title">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td class="start">
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td class="end">
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+        </tr>
         }
     </table>
 </div>

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<HikerTrails.Models.Hikes>
+@{
+    ViewBag.Title = "ViewMap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ViewMap</h2>
+
+<div id='map' style="height:500px"></div>
+<br />
+
+<div style="display: none">
+    <table class="table">
+        @foreach (var item in Model)
+        {
+            <tr class="coordinates">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td class="description">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td class="latitude">
+                    @Html.DisplayFor(modelItem => item.StartLatitude)
+                </td>
+                <td class="longitude">
+                    @Html.DisplayFor(modelItem => item.StartLongitude)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/mapbox")
+}

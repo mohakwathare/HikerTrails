@@ -94,5 +94,12 @@
                 @Html.ActionLink("Manage Trip Details", "Index", "HikerTripDetails")
             </dd>
         }
+        @if (User.IsInRole("hiker"))
+        {
+            <dt>Rate Past Hikes</dt>
+            <dd>
+                @Html.ActionLink("Rate Past Hikes", "ShowRatingHikes", "Hikes")
+            </dd>
+        }
     </dl>
 </div>
