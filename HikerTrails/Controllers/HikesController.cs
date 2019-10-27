@@ -157,6 +157,11 @@ namespace HikerTrails.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Hikes hikes = db.Hikes.Find(id);
+            var hikeTrips = db.HikerTripDetails.Where(x => x.HikeId == id).ToList();
+            for (int i=0; i<hikeTrips.Count; i++)
+            {
+                db.HikerTripDetails.Remove(hikeTrips[i]);
+            }
             db.Hikes.Remove(hikes);
             db.SaveChanges();
             return RedirectToAction("Index");

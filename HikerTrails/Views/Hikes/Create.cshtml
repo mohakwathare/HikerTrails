@@ -118,10 +118,14 @@
 <script type="text/javascript">
     $(function () {
         $("#StartDate").datetimepicker({
-            format: "YYYY-MM-DD hh:mm"
+            format: "YYYY-MM-DD hh:mm",
+            minDate: moment(),
+            maxDate: moment().add(180, 'days')
         });
         $("#EndDate").datetimepicker({
-            format: "YYYY-MM-DD hh:mm"
+            format: "YYYY-MM-DD hh:mm",
+            minDate: moment(),
+            maxDate: moment().add(180, 'days')
         });
 
         $.validator.methods["date"] = function (value, element) { return true;}
